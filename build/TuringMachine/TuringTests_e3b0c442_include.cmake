@@ -1,5 +1,0 @@
-if(EXISTS "D:/code/PPOIS/1/build/TuringMachine/TuringTests_e3b0c442_tests.cmake")
-  include("D:/code/PPOIS/1/build/TuringMachine/TuringTests_e3b0c442_tests.cmake")
-else()
-  add_test(TuringTests_NOT_BUILT TuringTests_NOT_BUILT)
-endif()
