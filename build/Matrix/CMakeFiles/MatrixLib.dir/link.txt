@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libMatrixLib.a CMakeFiles/MatrixLib.dir/Matrix.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libMatrixLib.a

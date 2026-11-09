@@ -29,7 +29,7 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
-    Matrix m; // Создаем пустую матрицу по умолчанию
+    Matrix m; 
 
     int choice = 0;
 

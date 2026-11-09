@@ -5,9 +5,9 @@
 
 #include "TuringMachine.h"
 
-// =========================================================================
+ 
 // Реализация класса Rule
-// =========================================================================
+ 
 
 Rule::Rule()
     : currentState(""), readSymbol('_'), nextState(""), writeSymbol('_'), moveDir(Direction::NONE) {}
@@ -31,9 +31,9 @@ std::ostream& operator<<(std::ostream& os, const Rule& rule) {
     return os;
 }
 
-// =========================================================================
+ 
 // Реализация класса Tape
-// =========================================================================
+ 
 
 Tape::Tape(char blank) : blankSymbol(blank) {
     head = new Node(blankSymbol);
@@ -197,9 +197,9 @@ void Tape::printWithCarriage(std::ostream& os) const {
     }
 }
 
-// =========================================================================
+ 
 // Реализация класса TuringMachine
-// =========================================================================
+ 
 
 TuringMachine::TuringMachine(char blank)
     : tape(blank), rules(nullptr), rulesCount(0), rulesCapacity(0),

@@ -1,0 +1,5 @@
+if(EXISTS "D:/code/PPOIS/1/build/Matrix/MatrixTests_e3b0c442_tests.cmake")
+  include("D:/code/PPOIS/1/build/Matrix/MatrixTests_e3b0c442_tests.cmake")
+else()
+  add_test(MatrixTests_NOT_BUILT MatrixTests_NOT_BUILT)
+endif()

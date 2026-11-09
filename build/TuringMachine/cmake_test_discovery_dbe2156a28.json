@@ -1,0 +1,43 @@
+{
+  "tests": 5,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TapeTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ExpandLeftAndRight",
+          "file": "D:\\code\\PPOIS\\1\\TuringMachine\\test.cpp",
+          "line": 6
+        },
+        {
+          "name": "DeepCopy",
+          "file": "D:\\code\\PPOIS\\1\\TuringMachine\\test.cpp",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "name": "MachineTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "AddAndRemoveRules",
+          "file": "D:\\code\\PPOIS\\1\\TuringMachine\\test.cpp",
+          "line": 32
+        },
+        {
+          "name": "StreamLoadAndBitInversion",
+          "file": "D:\\code\\PPOIS\\1\\TuringMachine\\test.cpp",
+          "line": 50
+        },
+        {
+          "name": "InfiniteLoopProtection",
+          "file": "D:\\code\\PPOIS\\1\\TuringMachine\\test.cpp",
+          "line": 71
+        }
+      ]
+    }
+  ]
+}
